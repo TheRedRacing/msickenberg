@@ -21,7 +21,6 @@ Route::get('/get/age', function(){
     return response(json_encode("{$age} Year old"), 200); 
 });
 Route::get('/get/email', function(){ return response(json_encode("maxime.sickenberg@gmail.com"), 200); });
-Route::get('/get/phone', function(){ return response(json_encode("+41 78 830 58 50"), 200); });
 
 Route::get('/get/languages', function(){
     return response(

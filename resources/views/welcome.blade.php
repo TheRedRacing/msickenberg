@@ -8,17 +8,17 @@
         <meta name="copyright" content="Maxime Sickenberg">
 
         <!-- Web -->
-        <meta content="[description]" name="description">
+        <meta content="Website portfolio of maxime sickenberg" name="description">
 
-        <meta content="[title]" property="og:title">
-        <meta content="[description]" property="og:description">
-        <meta content="[img]" property="og:image">
+        <meta content="Maxime Sickenberg WebSite" property="og:title">
+        <meta content="Website portfolio of maxime sickenberg" property="og:description">
+        <meta content="https://msickenberg.ch/img/portfolio.png" property="og:image">
         <meta content="website" property="og:type">
 
         <!-- Twitter -->
-        <meta content="[title]" property="twitter:title">
-        <meta content="[description]" property="twitter:description">
-        <meta content="[img]" property="twitter:image">
+        <meta content="Maxime Sickenberg WebSite" property="twitter:title">
+        <meta content="Website portfolio of maxime sickenberg" property="twitter:description">
+        <meta content="https://msickenberg.ch/img/portfolio.png" property="twitter:image">
         <meta content="summary_large_image" name="twitter:card">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,11 +47,8 @@
                 <a id="buttonAbout" class="w-20 text-zinc-700 flex justify-center items-center gap-2 py-2 hover:bg-blue-100 rounded-md cursor-pointer">
                     About
                 </a>
-                <a href="#contact" class="w-20 text-zinc-700 flex justify-center items-center gap-2 py-2 hover:bg-blue-100 rounded-md">
-                    Contact
-                </a>
             </div>
-            <a href="" class="lg:absolute lg:right-4 inline-flex align-middle text-blue-600 items-baseline gap-2 px-5 py-2 text-base font-medium hover:bg-blue-100 rounded-md">
+            <a href="#contact" class="lg:absolute lg:right-4 inline-flex align-middle text-blue-600 items-baseline gap-2 px-5 py-2 text-base font-medium hover:bg-blue-100 rounded-md">
                 <div>Contact me</div>
                 <svg width="7" height="10" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.566.434 6.131 5 1.566 9.566.434 8.434 3.869 5 .434 1.566z" fill="currentColor"></path>
@@ -59,40 +56,38 @@
             </a>                    
         </header>
 
-        <section class="container mx-auto sm:px-6 lg:px-8 mt-40">
-
-            <!-- <div id="banners" class="bg-blue-600 lg:absolute top-26 lg:top-16 left-0 right-0">
-                <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <section class="container mx-auto sm:px-6 lg:px-8 mt-20">
+            <div class="bg-indigo-600 rounded-lg">
+                <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
                     <div class="flex flex-wrap items-center justify-between">
-                        <div class="flex w-0 flex-1 items-center">
-                            <span class="flex rounded-lg bg-blue-800 p-2">
-                                Heroicon name: outline/megaphone 
-                                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
-                                </svg>
-                            </span>
-                            <p class="ml-3 truncate font-medium text-white">
-                                <span class="lg:hidden">Looking for work!</span>
-                                <span class="hidden lg:inline">Looking for work! Contact me today to discuss how I can bring value to your company.</span>
-                            </p>
-                        </div>
-                        <div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
-                            <a href="https://www.linkedin.com/in/maxime-sickenberg/" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm hover:bg-indigo-50">Hire me</a>
-                        </div>
-                        <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
-                            <button id="Dismissbanners" type="button" class="-mr-1 flex rounded-md p-2 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
-                                <span class="sr-only">Dismiss</span>
-                                Heroicon name: outline/x-mark
-                                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                </svg>
-                            </button>
-                        </div>
+                    <div class="flex w-0 flex-1 items-center">
+                        <span class="flex rounded-lg bg-indigo-800 p-2">
+                            <!-- Heroicon name: outline/megaphone -->
+                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
+                            </svg>
+                        </span>
+                        <p class="ml-3 truncate font-medium text-white">
+                            <span class="lg:hidden">Looking for work!</span>
+                            <span class="hidden lg:inline">Looking for work! Contact me today to discuss how I can bring value to your company.</span>
+                        </p>
+                    </div>
+                    <div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
+                        <a href="https://www.linkedin.com/in/maxime-sickenberg/" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-indigo-600 shadow-sm hover:bg-indigo-50">Hire me</a>
+                    </div>
+                    <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
+                        <button id="Dismissbanners" type="button" class="-mr-1 flex rounded-md p-2 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
+                            <span class="sr-only">Dismiss</span>
+                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <div class="min-h-[580px] relative mb-6 w-full flex-col flex justify-start items-center text-center">
+            <div class="mt-20 min-h-[580px] relative mb-6 w-full flex-col flex justify-start items-center text-center">
                 <div class="bigHero max-w-[830px] text-5xl md:text-7xl lg:text-8xl">Full-Stack Swiss Developper</div>
                 <div class="max-w-[600px] mt-4 mb-6 lg:text-2xl text-zinc-600">Developer focused on design, where attention to detail is very important.</div>
 
@@ -130,7 +125,7 @@
                     </div>
                 </div>
 
-                <div class="scroll-downs hidden md:block mt-6">
+                <div class="scroll-downs hidden md:block mt-8">
                     <div class="mousey border-2 border-blue-600">
                         <div class="scroller bg-blue-600"></div>
                     </div>    
@@ -202,18 +197,6 @@
                         </div>
                         
                         <div id="btnCallage" class="px-2 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded-md cursor-pointer"><i class="fas fa-fw fa-play"></i></div>
-                    </div>
-        
-                    <div class="flex items-center justify-between w-full py-2.5 font-medium text-left border-y border-zinc-200 hover:border-blue-600 cursor-pointer">
-                        <div class="flex justify-start items-center gap-2.5">
-                            <span class="bg-blue-400 text-white py-2 px-4 rounded-md">GET</span>
-                            <div class="flex flex-col lg:flex-row justify-start items-baseline lg:gap-2.5 text-zinc-800">
-                                <span>/api/get/phone</span> 
-                                <span class="text-xs lg:text-sm text-zinc-500">Get my phone number</span>
-                            </div>
-                        </div>
-                        
-                        <div id="btnCallphone" class="px-2 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded-md cursor-pointer"><i class="fas fa-fw fa-play"></i></div>
                     </div>
         
                     <div class="flex items-center justify-between w-full py-2.5 font-medium text-left border-y border-zinc-200 hover:border-blue-600 cursor-pointer">
@@ -303,14 +286,14 @@
                         </svg>
                     </a>
 
-                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <a href="https://github.com/TheRedRacing" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">GitHub</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
                         </svg>
                     </a>
                     
-                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <a href="https://www.linkedin.com/in/maxime-sickenberg/" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">LinkedIn</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
