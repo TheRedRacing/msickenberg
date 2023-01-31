@@ -56,8 +56,8 @@
             </a>                    
         </header>
 
-        <section class="container mx-auto sm:px-6 lg:px-8 mt-20">
-            <div class="bg-indigo-600 rounded-lg">
+        <section class="container mx-auto sm:px-6 lg:px-8 mt-40 lg:mt-20">
+            <div id="banners" class="bg-indigo-600 lg:rounded-lg">
                 <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
                     <div class="flex flex-wrap items-center justify-between">
                     <div class="flex w-0 flex-1 items-center">
@@ -87,7 +87,7 @@
                 </div>
             </div>
 
-            <div class="mt-20 min-h-[580px] relative mb-6 w-full flex-col flex justify-start items-center text-center">
+            <div class="mt-5 lg:mt-20 min-h-[580px] relative mb-6 w-full flex-col flex justify-start items-center text-center">
                 <div class="bigHero max-w-[830px] text-5xl md:text-7xl lg:text-8xl">Full-Stack Swiss Developper</div>
                 <div class="max-w-[600px] mt-4 mb-6 lg:text-2xl text-zinc-600">Developer focused on design, where attention to detail is very important.</div>
 
