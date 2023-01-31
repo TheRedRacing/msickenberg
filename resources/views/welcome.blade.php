@@ -143,7 +143,7 @@
 
                 <a class="group 3dhover relative flex justify-center items-end w-full h-[25vh] lg:h-[40vh] row-span-1 bg-gradient-to-br from-blue-400 to-indigo-800 rounded-xl hover:shadow-xl cursor-pointer" data-tilt data-tilt-max="5" data-tilt-speed="400">
                     <div class="absolute top-5 right-5 opacity-0 group-hover:opacity-100 p-2 bg-zinc-800 text-zinc-400 hover:text-blue-600 rounded-full flex justify-center items-center transition-opacity"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg></div>
-                    <div class="w-[85%] h-[85%] group-hover:w-full group-hover:h-full transition-all rounded-t-lg group-hover:rounded-b-lg bg-center bg-cover" style="background-image: url('/img/portfolio.png');"></div>
+                    <div class="w-[85%] h-[85%] group-hover:w-full group-hover:h-full transition-all rounded-t-lg group-hover:rounded-b-lg bg-top bg-cover" style="background-image: url('/img/portfolio.png');"></div>
                 </a>
 
                 <a class="group 3dhover relative flex justify-center items-end w-full h-[25vh] lg:h-[40vh] row-span-1 bg-gradient-to-br from-yellow-400 to-yellow-700 rounded-xl hover:shadow-xl cursor-pointer" data-tilt data-tilt-max="5" data-tilt-speed="400">
