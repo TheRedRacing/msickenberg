@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/cv', function() { return response()->file(storage_path("app\public\curriculum_vitae_maxime_sickenberg.pdf")); })->name('curriculum vitae');
-Route::get('/cv_print', function() { return response()->file(storage_path("app\public\curriculum_vitae_maxime_sickenberg_print.pdf")); })->name('curriculum vitae');
+Route::get('/cvprint', function() { return response()->file(storage_path("app\public\curriculum_vitae_maxime_sickenberg_print.pdf")); })->name('curriculum vitae print');
