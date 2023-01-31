@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +15,44 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::get('/get/name', function(){ return response(json_encode("Maxime Sickenberg"), 200); });
+Route::get('/get/age', function(){
+    $age = Carbon::parse("2001-04-10")->age; 
+    return response(json_encode("{$age} Year old"), 200); 
 });
+Route::get('/get/email', function(){ return response(json_encode("maxime.sickenberg@gmail.com"), 200); });
+Route::get('/get/phone', function(){ return response(json_encode("+41 78 830 58 50"), 200); });
+
+Route::get('/get/languages', function(){
+    return response(
+        json_encode([
+            ['Php','Laravel'],
+            ['Phyton','NumPy', 'Pandas', 'BeautifulSoup', 'Pillow', 'Tkinter', 'OpenCV'],
+            ['Javascript', 'JQuery', 'Vue.js', 'React', 'Angular'],
+            ['CSS', 'Bootstrap', 'Tailwindcss'],
+            ['C#', 'ASP.NET Core', 'WinFrom', 'Flutter'],
+            ['Other','HTML', 'Java', 'SQL']
+        ]), 200);
+});
+
+Route::get('/get/software', function(){
+    return response(
+        json_encode([
+            ['Docker'],
+            ['Drupal'],
+            ['WordPress'],
+            ['Webflow'],
+            ['Prestashop'],
+            ['Figma'],
+            ['Adobe XD']
+        ]), 200);
+});
+
+Route::get('/get/experience', function(){
+    return response(json_encode([
+        ['Elite SA'],
+        ['Solmani SA'],
+        ['ETML']
+    ]), 200);
+});
+

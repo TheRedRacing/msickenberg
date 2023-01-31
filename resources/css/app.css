@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.opentowork {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='450' height='90' viewBox='0 0 32 32'%3E%3Ctext x='16' y='16' text-anchor='middle' fill='%2316a34a33' font-size='24' font-weight='bold' %3E%23OpenToWork%3C/text%3E%3C/svg%3E");
+    background-position: 0 0;
+    background-repeat: repeat;
+    
+    -webkit-animation: bg-scrolling-reverse 6s infinite; /* Safari 4+ */
+    -moz-animation:    bg-scrolling-reverse 6s infinite; /* Fx 5+ */
+    -o-animation:      bg-scrolling-reverse 6s infinite; /* Opera 12+ */
+    animation:         bg-scrolling-reverse 6s infinite; /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function:    linear;
+    -o-animation-timing-function:      linear;
+    animation-timing-function:         linear;
+}
+
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse { 100% { background-position: -450px 90px; } }
+@-moz-keyframes    bg-scrolling-reverse { 100% { background-position: -450px 90px; } }
+@-o-keyframes      bg-scrolling-reverse { 100% { background-position: -450px 90px; } }
+@keyframes         bg-scrolling-reverse { 100% { background-position: -450px 90px; } }
+
+@-webkit-keyframes bg-scrolling { 0% { background-position: -450px 90px; } }
+@-moz-keyframes    bg-scrolling { 0% { background-position: -450px 90px; } }
+@-o-keyframes      bg-scrolling { 0% { background-position: -450px 90px; } }
+@keyframes         bg-scrolling { 0% { background-position: -450px 90px; } }
+
+
+
+.bigHero {
+    background: linear-gradient(0deg, #11181c 20%, rgba(17, 24, 28, 0) 45%), linear-gradient( 90deg, #0f3058 0%, #006adc 33.333%, #11181c 50%, #11181c 100% );
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    max-width: 830px;
+    font-size: 110px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.035em;
+}
+
+.scroll-downs {    
+    width :34px;
+    height: 55px;
+}
+
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
