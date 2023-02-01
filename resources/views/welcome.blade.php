@@ -39,7 +39,7 @@
         <!-- <div id="cursor" class="absolute z-[100] w-5 h-5 rounded-full bg-zinc-300"></div> -->
 
         <header class="fixed left-0 right-0 top-0 z-30 flex flex-col justify-center items-center w-full py-2 bg-white bg-opacity-70 backdrop-blur border-b border-zinc-200">         
-            <a href="/" class="md:absolute md:left-4 px-5 py-2 text-lg font-medium hover:bg-blue-100 rounded-md transform transition-all -translate-x-24 opacity-0 ease-out duration-1000 delay-100" data-replace='{ "-translate-x-24": "translate-y-0", "opacity-0": "opacity-100" }'>Maxime Sickenberg</a>
+            <a href="/" class="md:absolute md:left-4 px-5 py-2 text-lg font-medium hover:bg-blue-100 rounded-md transform transition-transform -translate-x-24 opacity-0 ease-out duration-1000 delay-100" data-replace='{ "-translate-x-24": "translate-y-0", "opacity-0": "opacity-100", "delay-100":"delay-0" }'>Maxime Sickenberg</a>
             <div class="flex justify-center items-center">
                 <a href="#work" class="w-20 text-zinc-700 flex justify-center items-center gap-2 py-2 hover:bg-blue-100 rounded-md">
                     Work
@@ -51,7 +51,7 @@
                     About
                 </a>
             </div>
-            <a href="#contact" class="md:absolute md:right-4 inline-flex align-middle text-blue-600 items-baseline gap-2 px-5 py-2 text-base font-medium hover:bg-blue-100 rounded-md transform transition-all translate-x-24 opacity-0 ease-out duration-1000 delay-100" data-replace='{ "translate-x-24": "translate-y-0", "opacity-0": "opacity-100" }'>
+            <a href="#contact" class="md:absolute md:right-4 inline-flex align-middle text-blue-600 items-baseline gap-2 px-5 py-2 text-base font-medium hover:bg-blue-100 rounded-md transform transition-all translate-x-24 opacity-0 ease-out duration-1000 delay-100" data-replace='{ "translate-x-24": "translate-y-0", "opacity-0": "opacity-100", "delay-100":"delay-0"}'>
                 <div>Contact me</div>
                 <svg width="7" height="10" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.566.434 6.131 5 1.566 9.566.434 8.434 3.869 5 .434 1.566z" fill="currentColor"></path>
@@ -60,7 +60,7 @@
         </header>
 
         <section class="container mx-auto sm:px-6 lg:px-8 mt-36 md:mt-16">
-            <div id="banners" class="bg-blue-600 sm:rounded-lg transform transition-all -translate-y-24 opacity-0 ease-out duration-1000 delay-700" data-replace='{ "-translate-y-24": "translate-y-0", "opacity-0": "opacity-100" }'>
+            <div id="banners" class="bg-blue-600 sm:rounded-lg transform transition-all -translate-y-24 opacity-0 ease-out duration-1000 delay-700" data-replace='{ "-translate-y-24": "translate-y-0", "opacity-0": "opacity-100" ,"delay-100":"delay-0"}'>
                 <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
                     <div class="flex flex-wrap items-center justify-between">
                     <div class="flex w-0 flex-1 items-center">
@@ -91,12 +91,12 @@
             </div>
 
             <div class="mt-5 lg:mt-20 lg:min-h-[580px] relative w-full flex-col flex justify-start items-center text-center">
-                <div class="bigHero max-w-[830px] text-5xl md:text-7xl lg:text-8xl transform transition-all opacity-0 translate-y-12 ease-out duration-1000 delay-150" data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'>Full-Stack Swiss Developper</div>
-                <div class="max-w-[600px] mt-4 mb-6 lg:text-2xl text-zinc-600 transform transition-all opacity-0 translate-y-12 ease-out duration-1000 delay-300" data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'>Developer focused on design, where attention to detail is very important.</div>
+                <div class="bigHero max-w-[830px] text-5xl md:text-7xl lg:text-8xl transform transition-all opacity-0 translate-y-12 ease-out duration-1000 delay-150" data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100","delay-150":"delay-0" }'>Full-Stack Swiss Developper</div>
+                <div class="max-w-[600px] mt-4 mb-6 lg:text-2xl text-zinc-600 transform transition-all opacity-0 translate-y-12 ease-out duration-1000 delay-300" data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100","delay-300":"delay-0" }'>Developer focused on design, where attention to detail is very important.</div>
 
                 <div class="w-full px-4 grid grid-cols-2 gap-2 lg:grid-cols-4 lg:my-16 text-center">
                     
-                    <div class="flex flex-col justify-center items-center gap-2.5 lg:gap-5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[500ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100" }'>
+                    <div class="flex flex-col justify-center items-center gap-2.5 lg:gap-5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[500ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100","delay-[500ms]":"delay-0" }'>
                         <div class="text-blue-600 text-2xl md:text-3xl lg:text-4xl"><i class="fad fa-code"></i></div>
                         <div>
                             <h2 class="title-font font-medium text-xl md:text-2xl lg:text-3xl text-gray-900">8</h2>
@@ -104,7 +104,7 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center items-center gap-2.5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[600ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100" }'>
+                    <div class="flex flex-col justify-center items-center gap-2.5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[600ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100","delay-[600ms]":"delay-0" }'>
                         <div class="text-blue-600 text-2xl md:text-3xl lg:text-4xl"><i class="fab fa-windows"></i></div>
                         <div>
                             <h2 class="title-font font-medium text-xl md:text-2xl lg:text-3xl text-gray-900">4</h2>
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     
-                    <div class="flex flex-col justify-center items-center gap-2.5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[700ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100" }'>
+                    <div class="flex flex-col justify-center items-center gap-2.5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[700ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100","delay-[700ms]":"delay-0" }'>
                         <div class="text-blue-600 text-2xl md:text-3xl lg:text-4xl"><i class="fad fa-file-certificate"></i></div>
                         <div>
                             <h2 class="title-font font-medium text-xl md:text-2xl lg:text-3xl text-gray-900">2</h2>
@@ -120,7 +120,7 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center items-center gap-2.5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[800ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100" }'>
+                    <div class="flex flex-col justify-center items-center gap-2.5 border-2 border-zinc-200 p-2.5 lg:px-4 lg:py-6 rounded-lg cursor-pointer hover:border-blue-600 transform transition-all opacity-0 -translate-y-24 ease-out duration-1000 delay-[800ms]" data-replace='{"-translate-y-24":"translate-y-0","opacity-0": "opacity-100","delay-[800ms]":"delay-0" }'>
                         <div class="text-blue-600 text-2xl md:text-3xl lg:text-4xl"><i class="fad fa-browser"></i></div>
                         <div>
                             <h2 class="title-font font-medium text-xl md:text-2xl lg:text-3xl text-gray-900">+4</h2>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="scroll-downs hidden lg:block transform transition-all opacity-0 translate-y-12 ease-out duration-1000 delay-1000" data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'>
+                <div class="scroll-downs hidden lg:block transform transition-all opacity-0 translate-y-12 ease-out duration-1000 delay-1000" data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" ,"delay-1000":"delay-0"}'>
                     <div class="mousey border-2 border-blue-600">
                         <div class="scroller bg-blue-600"></div>
                     </div>    
