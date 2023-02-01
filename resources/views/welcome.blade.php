@@ -271,7 +271,7 @@
                 </div> 
                 <div class="flex flex-col justify-center items-start min-h-[180px] p-4 lg:p-5 rounded-lg bg-cover bg-bottom cursor-pointer hover:shadow transition-shadow buttonAbout" style="background-image: url('/img/photo-1483794344563-d27a8d18014e.avif');">
                     
-                    <span class="text-xl lg:text-3xl font-medium">About Maxime</span>
+                    <span class="text-xl lg:text-3xl font-medium">About me</span>
                     <span class="max-w-[50%] text-sm md:text-base lg:text-lg text-zinc-500">Learn more about me and my story</span>
                     
                 </div>               
