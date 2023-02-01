@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .opentowork {
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='450' height='90' viewBox='0 0 32 32'%3E%3Ctext x='16' y='16' text-anchor='middle' fill='%2316a34a33' font-size='24' font-weight='bold' %3E%23OpenToWork%3C/text%3E%3C/svg%3E");
     background-position: 0 0;
@@ -31,7 +35,7 @@
 
 
 .bigHero {
-    background: linear-gradient(0deg, #11181c 20%, rgba(17, 24, 28, 0) 45%), linear-gradient( 90deg, #0f3058 0%, #006adc 33.333%, #11181c 50%, #11181c 100% );
+    background: linear-gradient(0deg, #11181c 20%, rgba(17, 24, 28, 0) 45%), linear-gradient( 90deg, #0f2c58 0%, rgb(37 99 235) 33.333%, #11181c 50%, #11181c 100% );
     background-size: 300% 100%;
     background-repeat: no-repeat;
     -webkit-background-clip: text;
@@ -42,7 +46,29 @@
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.035em;
+
+    -webkit-animation: intro-gradient 1.5s ease backwards;
+    animation: intro-gradient 1.5s ease backwards;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
+
+@-webkit-keyframes intro-gradient {
+    0% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  @keyframes intro-gradient {
+    0% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
 
 .scroll-downs {    
     width :34px;

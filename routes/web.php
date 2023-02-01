@@ -1,6 +1,9 @@
 <?php
 
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Route;
+use illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +19,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/cv', function() { return response()->file(storage_path("app\public\curriculum_vitae_maxime_sickenberg.pdf")); })->name('curriculum vitae');
-Route::get('/cvprint', function() { return response()->file(storage_path("app\public\curriculum_vitae_maxime_sickenberg_print.pdf")); })->name('curriculum vitae print');
