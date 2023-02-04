@@ -27,7 +27,7 @@ Route::get('/get/languages', function(){
         json_encode([
             ['Php','Laravel'],
             ['Phyton','NumPy', 'Pandas', 'BeautifulSoup', 'Pillow', 'Tkinter', 'OpenCV'],
-            ['Javascript', 'JQuery', 'Vue.js', 'React', 'Angular'],
+            ['Javascript', 'JQuery', 'Vue.js', 'React', 'Angular', 'TypeScript'],
             ['CSS', 'Bootstrap', 'Tailwindcss'],
             ['C#', 'ASP.NET Core', 'WinFrom', 'Flutter'],
             ['Other','HTML', 'Java', 'SQL']
@@ -43,14 +43,18 @@ Route::get('/get/software', function(){
             ['Webflow'],
             ['Prestashop'],
             ['Figma'],
-            ['Adobe XD']
+            ['Adobe XD'],
+            ['Trello'],
+            ['Github'],
+            ['Gitlab']
         ]), 200);
 });
 
 Route::get('/get/experience', function(){
     return response(json_encode([
-        ['Elite SA'],
+        ['Interactive Media Partner'],
         ['Solmani SA'],
+        ['Elite SA'],
         ['ETML']
     ]), 200);
 });
