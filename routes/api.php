@@ -15,26 +15,32 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/get/name', function(){ return response(json_encode("Maxime Sickenberg"), 200); });
-Route::get('/get/age', function(){
-    $age = Carbon::parse("2001-04-10")->age; 
-    return response(json_encode("{$age} Year old"), 200); 
+Route::get('/get/name', function () {
+    return response(json_encode("Maxime Sickenberg"), 200);
 });
-Route::get('/get/email', function(){ return response(json_encode("maxime.sickenberg@gmail.com"), 200); });
+Route::get('/get/age', function () {
+    $age = Carbon::parse("2001-04-10")->age;
+    return response(json_encode("{$age} Year old"), 200);
+});
+Route::get('/get/email', function () {
+    return response(json_encode("maxime.sickenberg@gmail.com"), 200);
+});
 
-Route::get('/get/languages', function(){
+Route::get('/get/languages', function () {
     return response(
         json_encode([
-            ['Php','Laravel'],
-            ['Phyton','NumPy', 'Pandas', 'BeautifulSoup', 'Pillow', 'Tkinter', 'OpenCV'],
-            ['Javascript', 'JQuery', 'Vue.js', 'React', 'Angular', 'TypeScript'],
-            ['CSS', 'Bootstrap', 'Tailwindcss'],
+            ['Php', 'Laravel'],
+            ['Phyton', 'NumPy', 'Pandas', 'BeautifulSoup', 'Pillow', 'Tkinter', 'OpenCV'],
+            ['Javascript', 'JQuery', 'Vue.js', 'React', 'Angular', 'TypeScript', 'NextJs', 'NuxtJs', 'NodeJs'],
+            ['CSS', 'Bootstrap', 'Tailwindcss', 'DaisyUI'],
             ['C#', 'ASP.NET Core', 'WinFrom', 'Flutter'],
-            ['Other','HTML', 'Java', 'SQL']
-        ]), 200);
+            ['Other', 'HTML', 'Java', 'SQL']
+        ]),
+        200
+    );
 });
 
-Route::get('/get/software', function(){
+Route::get('/get/software', function () {
     return response(
         json_encode([
             ['Docker'],
@@ -47,15 +53,17 @@ Route::get('/get/software', function(){
             ['Trello'],
             ['Github'],
             ['Gitlab']
-        ]), 200);
+        ]),
+        200
+    );
 });
 
-Route::get('/get/experience', function(){
+Route::get('/get/experience', function () {
     return response(json_encode([
+        ['Alpina Digital Agency'],
         ['Interactive Media Partner'],
         ['Solmani SA'],
         ['Elite SA'],
         ['ETML']
     ]), 200);
 });
-
