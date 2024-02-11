@@ -298,7 +298,7 @@
                 </a>
             </div>
             <div class="mt-8 lg:order-1 lg:mt-0">
-                <p class="text-center text-xs leading-5 text-gray-500">&copy; 2023 Maxime Sickenberg. All rights reserved.</p>
+                <p class="text-center text-xs leading-5 text-gray-500">&copy; 2024 Maxime Sickenberg. All rights reserved.</p>
             </div>
         </div>
     </footer>
